@@ -1,0 +1,31 @@
+[
+    {
+      "disease": "Flu",
+      "geographic_region": "Region A",
+      "health_trend": "Increase in flu cases",
+      "public_health_intervention": "Vaccination campaigns",
+      "impact_on_operations": "High"
+    },
+    {
+      "disease": "COVID-19",
+      "geographic_region": "Region B",
+      "health_trend": "Decrease in COVID-19 cases",
+      "public_health_intervention": "Lockdowns, Social distancing",
+      "impact_on_operations": "Medium"
+    },
+    {
+      "disease": "Allergies",
+      "geographic_region": "Region C",
+      "health_trend": "Rise in allergy cases",
+      "public_health_intervention": "Public awareness campaigns",
+      "impact_on_operations": "Low"
+    },
+    {
+      "disease": "Chronic Diseases",
+      "geographic_region": "Region D",
+      "health_trend": "Stable chronic disease rates",
+      "public_health_intervention": "Regular screenings",
+      "impact_on_operations": "Low"
+    }
+  ]
+  

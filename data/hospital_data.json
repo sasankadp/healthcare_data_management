@@ -1,0 +1,35 @@
+[
+    {
+      "department": "Cardiology",
+      "bed_availability": 20,
+      "doctors_available": 5,
+      "equipment_status": "Good",
+      "staff_schedule": "Dr. A: 9AM-5PM, Dr. B: 10AM-6PM",
+      "resource_utilization": "75%"
+    },
+    {
+      "department": "Emergency",
+      "bed_availability": 15,
+      "doctors_available": 8,
+      "equipment_status": "Excellent",
+      "staff_schedule": "Dr. C: 8AM-4PM, Dr. D: 11AM-7PM",
+      "resource_utilization": "80%"
+    },
+    {
+      "department": "Orthopedics",
+      "bed_availability": 10,
+      "doctors_available": 4,
+      "equipment_status": "Average",
+      "staff_schedule": "Dr. E: 9AM-5PM, Dr. F: 10AM-6PM",
+      "resource_utilization": "85%"
+    },
+    {
+      "department": "General",
+      "bed_availability": 5,
+      "doctors_available": 10,
+      "equipment_status": "Good",
+      "staff_schedule": "Dr. G: 8AM-4PM, Dr. H: 11AM-7PM",
+      "resource_utilization": "90%"
+    }
+  ]
+  
