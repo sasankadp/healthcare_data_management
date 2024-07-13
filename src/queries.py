@@ -10,8 +10,22 @@ def view_patients():
     cursor.execute("SELECT * FROM patient_records")
     rows = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    print("\n--- Patient Records ---")
+    if rows:
+        for row in rows:
+            print(f"Patient ID: {row[0]}")
+            print(f"Name: {row[1]}")
+            print(f"Age: {row[2]}")
+            print(f"Gender: {row[3]}")
+            print(f"Diagnosis Date: {row[4]}")
+            print(f"Medical History: {row[5]}")
+            print(f"Visit Records: {row[6]}")
+            print(f"Treatment Plan: {row[7]}")
+            print(f"Outcome: {row[8]}")
+            print("\n---------------------------")
+    else:
+        print("No patient records found.")
+    print("\n")
 
     conn.close()
 
@@ -25,8 +39,20 @@ def view_hospital_data():
     cursor.execute("SELECT * FROM hospital_data")
     rows = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    print("\n--- Hospital Data ---")
+    if rows:
+        for row in rows:
+            print(f"Record ID: {row[0]}")
+            print(f"Department: {row[1]}")
+            print(f"Bed Availability: {row[2]}")
+            print(f"Doctors Available: {row[3]}")
+            print(f"Equipment Status: {row[4]}")
+            print(f"Staff Schedule: {row[5]}")
+            print(f"Resource Utilization: {row[6]}")
+            print("\n---------------------------")
+    else:
+        print("No hospital data found.")
+    print("\n")
 
     conn.close()
 
@@ -40,8 +66,19 @@ def view_public_health_data():
     cursor.execute("SELECT * FROM public_health_data")
     rows = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    print("\n--- Public Health Data ---")
+    if rows:
+        for row in rows:
+            print(f"Record ID: {row[0]}")
+            print(f"Disease: {row[1]}")
+            print(f"Geographic Region: {row[2]}")
+            print(f"Health Trend: {row[3]}")
+            print(f"Public Health Intervention: {row[4]}")
+            print(f"Impact on Operations: {row[5]}")
+            print("\n---------------------------")
+    else:
+        print("No public health data found.")
+    print("\n")
 
     conn.close()
 
@@ -70,7 +107,8 @@ def add_patient():
     cursor.execute(query)
     conn.commit()
 
-    print("Patient record added successfully.")
+    print("\nPatient record added successfully.\n")
+
     conn.close()
 
 def add_hospital_data():
@@ -96,7 +134,8 @@ def add_hospital_data():
     cursor.execute(query)
     conn.commit()
 
-    print("Hospital data added successfully.")
+    print("\nHospital data added successfully.\n")
+
     conn.close()
 
 def add_public_health_data():
@@ -121,7 +160,8 @@ def add_public_health_data():
     cursor.execute(query)
     conn.commit()
 
-    print("Public health data added successfully.")
+    print("\nPublic health data added successfully.\n")
+
     conn.close()
 
 def find_patient_by_name():
@@ -137,8 +177,22 @@ def find_patient_by_name():
     cursor.execute(query)
     rows = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    print("\n--- Search Results ---")
+    if rows:
+        for row in rows:
+            print(f"Patient ID: {row[0]}")
+            print(f"Name: {row[1]}")
+            print(f"Age: {row[2]}")
+            print(f"Gender: {row[3]}")
+            print(f"Diagnosis Date: {row[4]}")
+            print(f"Medical History: {row[5]}")
+            print(f"Visit Records: {row[6]}")
+            print(f"Treatment Plan: {row[7]}")
+            print(f"Outcome: {row[8]}")
+            print("\n---------------------------")
+    else:
+        print("No patients found with that name.")
+    print("\n")
 
     conn.close()
 
@@ -155,8 +209,20 @@ def find_hospital_by_department():
     cursor.execute(query)
     rows = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    print("\n--- Search Results ---")
+    if rows:
+        for row in rows:
+            print(f"Record ID: {row[0]}")
+            print(f"Department: {row[1]}")
+            print(f"Bed Availability: {row[2]}")
+            print(f"Doctors Available: {row[3]}")
+            print(f"Equipment Status: {row[4]}")
+            print(f"Staff Schedule: {row[5]}")
+            print(f"Resource Utilization: {row[6]}")
+            print("\n---------------------------")
+    else:
+        print("No hospital data found for that department.")
+    print("\n")
 
     conn.close()
 
@@ -174,7 +240,21 @@ def find_patients_by_diagnosis_date():
     cursor.execute(query)
     rows = cursor.fetchall()
 
-    for row in rows:
-        print(row)
+    print("\n--- Search Results ---")
+    if rows:
+        for row in rows:
+            print(f"Patient ID: {row[0]}")
+            print(f"Name: {row[1]}")
+            print(f"Age: {row[2]}")
+            print(f"Gender: {row[3]}")
+            print(f"Diagnosis Date: {row[4]}")
+            print(f"Medical History: {row[5]}")
+            print(f"Visit Records: {row[6]}")
+            print(f"Treatment Plan: {row[7]}")
+            print(f"Outcome: {row[8]}")
+            print("\n---------------------------")
+    else:
+        print("No patient records found for that date range.")
+    print("\n")
 
     conn.close()
