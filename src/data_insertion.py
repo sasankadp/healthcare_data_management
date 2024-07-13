@@ -12,7 +12,7 @@ def execute_query(connection, query):
 
 def insert_data(connection, patient_data, hospital_data, public_health_data):
     patient_queries = [
-        f"INSERT INTO patient_records (name, age, gender, diagnosis_date, medical_history, visit_records, treatment_plan, outcome) VALUES ('{record['name']}', {record['age']}, '{record['gender']}', '{record['diagnosis_date']}', '{record['medical_history']}', '{record['visit_records']}', '{record['treatment_plan']}', '{record['outcome']}')"
+        f"INSERT INTO patient_records (name, gender, diagnosis_date, medical_history, visit_records, treatment_plan, outcome, date_of_birth, contact_info, insurance_info, ethnicity, allergies) VALUES ('{record['name']}', '{record['gender']}', '{record['diagnosis_date']}', '{record['medical_history']}', '{record['visit_records']}', '{record['treatment_plan']}', '{record['outcome']}', '{record['date_of_birth']}', '{record.get('contact_info', '')}', '{record.get('insurance_info', '')}', '{record.get('ethnicity', '')}', '{record.get('allergies', '')}')"
         for record in patient_data
     ]
     hospital_queries = [

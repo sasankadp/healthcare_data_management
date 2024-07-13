@@ -9,7 +9,6 @@ def show_menu():
     print("6. Add Public Health Data")
     print("7. Find Patient by Name")
     print("8. Find Hospital by Department")
-    print("9. Find Patients by Diagnosis Date")
     print("10. Exit")
 
     choice = input("Enter your choice: ")
@@ -30,8 +29,6 @@ def show_menu():
         queries.find_patient_by_name()
     elif choice == '8':
         queries.find_hospital_by_department()
-    elif choice == '9':
-        queries.find_patients_by_diagnosis_date()
     elif choice == '10':
         exit()
     else:
