@@ -1,0 +1,30 @@
+[
+    {
+        "appointment_id": 1,
+        "patient_id": 1,
+        "doctor_name": "Dr. Smith",
+        "appointment_date": "2023-07-15 09:00:00",
+        "status": "Scheduled"
+    },
+    {
+        "appointment_id": 2,
+        "patient_id": 2,
+        "doctor_name": "Dr. Jones",
+        "appointment_date": "2023-07-16 10:00:00",
+        "status": "Scheduled"
+    },
+    {
+        "appointment_id": 3,
+        "patient_id": 3,
+        "doctor_name": "Dr. Brown",
+        "appointment_date": "2023-07-17 11:00:00",
+        "status": "Scheduled"
+    },
+    {
+        "appointment_id": 4,
+        "patient_id": 4,
+        "doctor_name": "Dr. Taylor",
+        "appointment_date": "2023-07-18 13:00:00",
+        "status": "Scheduled"
+    }
+]

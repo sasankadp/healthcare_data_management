@@ -52,3 +52,12 @@ CREATE TABLE public_health_data (
     healthcare_access TEXT,
     economic_impact TEXT
 );
+
+CREATE TABLE IF NOT EXISTS appointments (
+    appointment_id INT AUTO_INCREMENT PRIMARY KEY,
+    patient_id INT,
+    doctor_name VARCHAR(100),
+    appointment_date DATETIME,
+    status VARCHAR(20),
+    FOREIGN KEY (patient_id) REFERENCES patient_records(patient_id)
+);

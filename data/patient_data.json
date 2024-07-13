@@ -7,7 +7,11 @@
         "visit_records": "2021-01-01: Checkup, 2021-06-01: Follow-up",
         "treatment_plan": "Metformin, Lifestyle changes",
         "outcome": "Stable",
-        "date_of_birth": "1991-01-01"
+        "date_of_birth": "1991-01-01",
+        "contact_info": "john.doe@example.com",
+        "insurance_info": "ABC Insurance",
+        "ethnicity": "Caucasian",
+        "allergies": "Peanuts"
     },
     {
         "name": "Jane Smith",
@@ -17,7 +21,11 @@
         "visit_records": "2021-02-15: Checkup, 2021-07-10: Follow-up",
         "treatment_plan": "Inhaler, Avoid allergens",
         "outcome": "Improved",
-        "date_of_birth": "1996-01-01"
+        "date_of_birth": "1996-01-01",
+        "contact_info": "jane.smith@example.com",
+        "insurance_info": "XYZ Insurance",
+        "ethnicity": "Asian",
+        "allergies": "None"
     },
     {
         "name": "Alice Johnson",
@@ -27,7 +35,11 @@
         "visit_records": "2021-03-20: Checkup, 2021-08-05: Follow-up",
         "treatment_plan": "ACE inhibitors, Diet changes",
         "outcome": "Stable",
-        "date_of_birth": "1981-01-01"
+        "date_of_birth": "1981-01-01",
+        "contact_info": "alice.johnson@example.com",
+        "insurance_info": "DEF Insurance",
+        "ethnicity": "African American",
+        "allergies": "Shellfish"
     },
     {
         "name": "Bob Brown",
@@ -37,6 +49,10 @@
         "visit_records": "2021-04-25: Checkup, 2021-09-15: Follow-up",
         "treatment_plan": "Pain relievers, Physical therapy",
         "outcome": "Stable",
-        "date_of_birth": "1971-01-01"
+        "date_of_birth": "1971-01-01",
+        "contact_info": "bob.brown@example.com",
+        "insurance_info": "GHI Insurance",
+        "ethnicity": "Hispanic",
+        "allergies": "None"
     }
 ]

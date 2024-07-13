@@ -9,7 +9,10 @@ def show_menu():
     print("6. Add Public Health Data")
     print("7. Find Patient by Name")
     print("8. Find Hospital by Department")
-    print("10. Exit")
+    print("9. View Appointments")
+    print("10. Schedule Appointment")
+    print("11. Cancel Appointment")
+    print("12. Exit")
 
     choice = input("Enter your choice: ")
 
@@ -29,7 +32,13 @@ def show_menu():
         queries.find_patient_by_name()
     elif choice == '8':
         queries.find_hospital_by_department()
+    elif choice == '9':
+        queries.view_appointments()
     elif choice == '10':
+        queries.schedule_appointment()
+    elif choice == '11':
+        queries.cancel_appointment()
+    elif choice == '12':
         exit()
     else:
         print("Invalid choice. Please try again.")
