@@ -10,8 +10,5 @@ def import_data():
     
     with open('data/public_health_data.json') as f:
         public_health_data = json.load(f)
-
-    with open('data/appointments_data.json') as f:
-        appointments_data = json.load(f)
     
-    return patient_data, hospital_data, public_health_data, appointments_data
+    return patient_data, hospital_data, public_health_data

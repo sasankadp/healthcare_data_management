@@ -5,7 +5,6 @@ CREATE DATABASE IF NOT EXISTS healthcare_data;
 USE healthcare_data;
 
 -- Drop tables if they exist, in the correct order to handle foreign key constraints
-DROP TABLE IF EXISTS appointments;
 DROP TABLE IF EXISTS public_health_data;
 DROP TABLE IF EXISTS hospital_data;
 DROP TABLE IF EXISTS patient_records;
@@ -53,14 +52,4 @@ CREATE TABLE IF NOT EXISTS public_health_data (
     vaccination_rate FLOAT,
     healthcare_access TEXT,
     economic_impact TEXT
-);
-
--- Create table for appointments
-CREATE TABLE IF NOT EXISTS appointments (
-    appointment_id INT AUTO_INCREMENT PRIMARY KEY,
-    patient_id INT,
-    doctor_name VARCHAR(100),
-    appointment_date DATETIME,
-    status VARCHAR(20),
-    FOREIGN KEY (patient_id) REFERENCES patient_records(patient_id)
 );

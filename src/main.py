@@ -33,10 +33,10 @@ def setup_database():
         print("Failed to connect to the database.")
         return
 
-    # Import, preprocess, and insert data
-    patient_data, hospital_data, public_health_data, appointments_data = import_data()
-    patient_data, hospital_data, public_health_data, appointments_data = preprocess_data(patient_data, hospital_data, public_health_data, appointments_data)
-    insert_data(conn, patient_data, hospital_data, public_health_data, appointments_data)
+     # Import, preprocess, and insert data
+    patient_data, hospital_data, public_health_data = import_data()
+    patient_data, hospital_data, public_health_data = preprocess_data(patient_data, hospital_data, public_health_data)
+    insert_data(conn, patient_data, hospital_data, public_health_data)
     conn.close()
 
 if __name__ == "__main__":
