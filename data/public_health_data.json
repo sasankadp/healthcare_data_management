@@ -1,31 +1,42 @@
 [
     {
-      "disease": "Flu",
-      "geographic_region": "Region A",
-      "health_trend": "Increase in flu cases",
-      "public_health_intervention": "Vaccination campaigns",
-      "impact_on_operations": "High"
+        "disease": "Flu",
+        "geographic_region": "Region A",
+        "health_trend": "Increase in flu cases",
+        "public_health_intervention": "Vaccination campaigns",
+        "impact_on_operations": "High",
+        "vaccination_rate": 0.6,
+        "healthcare_access": "High",
+        "economic_impact": "Moderate"
     },
     {
-      "disease": "COVID-19",
-      "geographic_region": "Region B",
-      "health_trend": "Decrease in COVID-19 cases",
-      "public_health_intervention": "Lockdowns, Social distancing",
-      "impact_on_operations": "Medium"
+        "disease": "COVID-19",
+        "geographic_region": "Region B",
+        "health_trend": "Decrease in COVID-19 cases",
+        "public_health_intervention": "Lockdowns, Social distancing",
+        "impact_on_operations": "Medium",
+        "vaccination_rate": 0.8,
+        "healthcare_access": "Moderate",
+        "economic_impact": "High"
     },
     {
-      "disease": "Allergies",
-      "geographic_region": "Region C",
-      "health_trend": "Rise in allergy cases",
-      "public_health_intervention": "Public awareness campaigns",
-      "impact_on_operations": "Low"
+        "disease": "Allergies",
+        "geographic_region": "Region C",
+        "health_trend": "Rise in allergy cases",
+        "public_health_intervention": "Public awareness campaigns",
+        "impact_on_operations": "Low",
+        "vaccination_rate": 0.0,
+        "healthcare_access": "High",
+        "economic_impact": "Low"
     },
     {
-      "disease": "Chronic Diseases",
-      "geographic_region": "Region D",
-      "health_trend": "Stable chronic disease rates",
-      "public_health_intervention": "Regular screenings",
-      "impact_on_operations": "Low"
+        "disease": "Chronic Diseases",
+        "geographic_region": "Region D",
+        "health_trend": "Stable chronic disease rates",
+        "public_health_intervention": "Regular screenings",
+        "impact_on_operations": "Low",
+        "vaccination_rate": 0.0,
+        "healthcare_access": "Moderate",
+        "economic_impact": "Moderate"
     }
-  ]
-  
+]

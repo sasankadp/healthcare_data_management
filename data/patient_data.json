@@ -1,43 +1,58 @@
 [
     {
-      "name": "John Doe",
-      "age": 30,
-      "gender": "male",
-      "diagnosis_date": "2021-01-01",
-      "medical_history": "Diabetes, Hypertension",
-      "visit_records": "2021-01-01: Checkup, 2021-06-01: Follow-up",
-      "treatment_plan": "Metformin, Lifestyle changes",
-      "outcome": "Stable"
+        "name": "John Doe",
+        "gender": "male",
+        "diagnosis_date": "2021-01-01",
+        "medical_history": "Diabetes, Hypertension",
+        "visit_records": "2021-01-01: Checkup, 2021-06-01: Follow-up",
+        "treatment_plan": "Metformin, Lifestyle changes",
+        "outcome": "Stable",
+        "date_of_birth": "1991-01-01",
+        "contact_info": "john.doe@example.com",
+        "insurance_info": "ABC Insurance",
+        "ethnicity": "Caucasian",
+        "allergies": "Peanuts"
     },
     {
-      "name": "Jane Smith",
-      "age": 25,
-      "gender": "female",
-      "diagnosis_date": "2021-02-15",
-      "medical_history": "Asthma",
-      "visit_records": "2021-02-15: Checkup, 2021-07-10: Follow-up",
-      "treatment_plan": "Inhaler, Avoid allergens",
-      "outcome": "Improved"
+        "name": "Jane Smith",
+        "gender": "female",
+        "diagnosis_date": "2021-02-15",
+        "medical_history": "Asthma",
+        "visit_records": "2021-02-15: Checkup, 2021-07-10: Follow-up",
+        "treatment_plan": "Inhaler, Avoid allergens",
+        "outcome": "Improved",
+        "date_of_birth": "1996-01-01",
+        "contact_info": "jane.smith@example.com",
+        "insurance_info": "XYZ Insurance",
+        "ethnicity": "Asian",
+        "allergies": "None"
     },
     {
-      "name": "Alice Johnson",
-      "age": 40,
-      "gender": "female",
-      "diagnosis_date": "2021-03-20",
-      "medical_history": "Cardiovascular Disease",
-      "visit_records": "2021-03-20: Checkup, 2021-08-05: Follow-up",
-      "treatment_plan": "ACE inhibitors, Diet changes",
-      "outcome": "Stable"
+        "name": "Alice Johnson",
+        "gender": "female",
+        "diagnosis_date": "2021-03-20",
+        "medical_history": "Cardiovascular Disease",
+        "visit_records": "2021-03-20: Checkup, 2021-08-05: Follow-up",
+        "treatment_plan": "ACE inhibitors, Diet changes",
+        "outcome": "Stable",
+        "date_of_birth": "1981-01-01",
+        "contact_info": "alice.johnson@example.com",
+        "insurance_info": "DEF Insurance",
+        "ethnicity": "African American",
+        "allergies": "Shellfish"
     },
     {
-      "name": "Bob Brown",
-      "age": 50,
-      "gender": "male",
-      "diagnosis_date": "2021-04-25",
-      "medical_history": "Arthritis",
-      "visit_records": "2021-04-25: Checkup, 2021-09-15: Follow-up",
-      "treatment_plan": "Pain relievers, Physical therapy",
-      "outcome": "Stable"
+        "name": "Bob Brown",
+        "gender": "male",
+        "diagnosis_date": "2021-04-25",
+        "medical_history": "Arthritis",
+        "visit_records": "2021-04-25: Checkup, 2021-09-15: Follow-up",
+        "treatment_plan": "Pain relievers, Physical therapy",
+        "outcome": "Stable",
+        "date_of_birth": "1971-01-01",
+        "contact_info": "bob.brown@example.com",
+        "insurance_info": "GHI Insurance",
+        "ethnicity": "Hispanic",
+        "allergies": "None"
     }
-  ]
-  
+]
