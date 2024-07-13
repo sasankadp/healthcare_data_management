@@ -9,13 +9,13 @@ DROP TABLE IF EXISTS patient_records;
 CREATE TABLE patient_records (
     patient_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
-    age INT,
     gender VARCHAR(10),
     diagnosis_date DATE,
     medical_history TEXT,
     visit_records TEXT,
     treatment_plan TEXT,
-    outcome TEXT
+    outcome TEXT,
+    date_of_birth DATE
 );
 
 -- Create table for hospital data with additional fields
