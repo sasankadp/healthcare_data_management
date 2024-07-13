@@ -1,35 +1,50 @@
 [
     {
-      "department": "Cardiology",
-      "bed_availability": 20,
-      "doctors_available": 5,
-      "equipment_status": "Good",
-      "staff_schedule": "Dr. A: 9AM-5PM, Dr. B: 10AM-6PM",
-      "resource_utilization": "75%"
+        "department": "Cardiology",
+        "bed_availability": 20,
+        "doctors_available": 5,
+        "equipment_status": "Good",
+        "staff_schedule": "Dr. A: 9AM-5PM, Dr. B: 10AM-6PM",
+        "resource_utilization": "75%",
+        "avg_patient_wait_time": "00:30:00",
+        "admission_rate": 0.7,
+        "discharge_rate": 0.6,
+        "patient_satisfaction_score": 4.5
     },
     {
-      "department": "Emergency",
-      "bed_availability": 15,
-      "doctors_available": 8,
-      "equipment_status": "Excellent",
-      "staff_schedule": "Dr. C: 8AM-4PM, Dr. D: 11AM-7PM",
-      "resource_utilization": "80%"
+        "department": "Emergency",
+        "bed_availability": 15,
+        "doctors_available": 8,
+        "equipment_status": "Excellent",
+        "staff_schedule": "Dr. C: 8AM-4PM, Dr. D: 11AM-7PM",
+        "resource_utilization": "80%",
+        "avg_patient_wait_time": "00:20:00",
+        "admission_rate": 0.9,
+        "discharge_rate": 0.85,
+        "patient_satisfaction_score": 4.7
     },
     {
-      "department": "Orthopedics",
-      "bed_availability": 10,
-      "doctors_available": 4,
-      "equipment_status": "Average",
-      "staff_schedule": "Dr. E: 9AM-5PM, Dr. F: 10AM-6PM",
-      "resource_utilization": "85%"
+        "department": "Orthopedics",
+        "bed_availability": 10,
+        "doctors_available": 4,
+        "equipment_status": "Average",
+        "staff_schedule": "Dr. E: 9AM-5PM, Dr. F: 10AM-6PM",
+        "resource_utilization": "85%",
+        "avg_patient_wait_time": "00:45:00",
+        "admission_rate": 0.6,
+        "discharge_rate": 0.55,
+        "patient_satisfaction_score": 4.2
     },
     {
-      "department": "General",
-      "bed_availability": 5,
-      "doctors_available": 10,
-      "equipment_status": "Good",
-      "staff_schedule": "Dr. G: 8AM-4PM, Dr. H: 11AM-7PM",
-      "resource_utilization": "90%"
+        "department": "General",
+        "bed_availability": 5,
+        "doctors_available": 10,
+        "equipment_status": "Good",
+        "staff_schedule": "Dr. G: 8AM-4PM, Dr. H: 11AM-7PM",
+        "resource_utilization": "90%",
+        "avg_patient_wait_time": "00:25:00",
+        "admission_rate": 0.8,
+        "discharge_rate": 0.75,
+        "patient_satisfaction_score": 4.6
     }
-  ]
-  
+]

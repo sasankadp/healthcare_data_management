@@ -1,42 +1,42 @@
 [
-  {
-      "name": "John Doe",
-      "gender": "male",
-      "diagnosis_date": "2021-01-01",
-      "medical_history": "Diabetes, Hypertension",
-      "visit_records": "2021-01-01: Checkup, 2021-06-01: Follow-up",
-      "treatment_plan": "Metformin, Lifestyle changes",
-      "outcome": "Stable",
-      "date_of_birth": "1991-01-01"
-  },
-  {
-      "name": "Jane Smith",
-      "gender": "female",
-      "diagnosis_date": "2021-02-15",
-      "medical_history": "Asthma",
-      "visit_records": "2021-02-15: Checkup, 2021-07-10: Follow-up",
-      "treatment_plan": "Inhaler, Avoid allergens",
-      "outcome": "Improved",
-      "date_of_birth": "1996-01-01"
-  },
-  {
-      "name": "Alice Johnson",
-      "gender": "female",
-      "diagnosis_date": "2021-03-20",
-      "medical_history": "Cardiovascular Disease",
-      "visit_records": "2021-03-20: Checkup, 2021-08-05: Follow-up",
-      "treatment_plan": "ACE inhibitors, Diet changes",
-      "outcome": "Stable",
-      "date_of_birth": "1981-01-01"
-  },
-  {
-      "name": "Bob Brown",
-      "gender": "male",
-      "diagnosis_date": "2021-04-25",
-      "medical_history": "Arthritis",
-      "visit_records": "2021-04-25: Checkup, 2021-09-15: Follow-up",
-      "treatment_plan": "Pain relievers, Physical therapy",
-      "outcome": "Stable",
-      "date_of_birth": "1971-01-01"
-  }
+    {
+        "name": "John Doe",
+        "gender": "male",
+        "diagnosis_date": "2021-01-01",
+        "medical_history": "Diabetes, Hypertension",
+        "visit_records": "2021-01-01: Checkup, 2021-06-01: Follow-up",
+        "treatment_plan": "Metformin, Lifestyle changes",
+        "outcome": "Stable",
+        "date_of_birth": "1991-01-01"
+    },
+    {
+        "name": "Jane Smith",
+        "gender": "female",
+        "diagnosis_date": "2021-02-15",
+        "medical_history": "Asthma",
+        "visit_records": "2021-02-15: Checkup, 2021-07-10: Follow-up",
+        "treatment_plan": "Inhaler, Avoid allergens",
+        "outcome": "Improved",
+        "date_of_birth": "1996-01-01"
+    },
+    {
+        "name": "Alice Johnson",
+        "gender": "female",
+        "diagnosis_date": "2021-03-20",
+        "medical_history": "Cardiovascular Disease",
+        "visit_records": "2021-03-20: Checkup, 2021-08-05: Follow-up",
+        "treatment_plan": "ACE inhibitors, Diet changes",
+        "outcome": "Stable",
+        "date_of_birth": "1981-01-01"
+    },
+    {
+        "name": "Bob Brown",
+        "gender": "male",
+        "diagnosis_date": "2021-04-25",
+        "medical_history": "Arthritis",
+        "visit_records": "2021-04-25: Checkup, 2021-09-15: Follow-up",
+        "treatment_plan": "Pain relievers, Physical therapy",
+        "outcome": "Stable",
+        "date_of_birth": "1971-01-01"
+    }
 ]

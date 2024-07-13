@@ -1,3 +1,4 @@
+
 -- Create the database if it does not exist
 CREATE DATABASE IF NOT EXISTS healthcare_data;
 
@@ -15,7 +16,11 @@ CREATE TABLE patient_records (
     visit_records TEXT,
     treatment_plan TEXT,
     outcome TEXT,
-    date_of_birth DATE
+    date_of_birth DATE,
+    contact_info VARCHAR(100),
+    insurance_info VARCHAR(100),
+    ethnicity VARCHAR(50),
+    allergies TEXT
 );
 
 -- Create table for hospital data with additional fields
@@ -27,7 +32,11 @@ CREATE TABLE hospital_data (
     doctors_available INT,
     equipment_status TEXT,
     staff_schedule TEXT,
-    resource_utilization TEXT
+    resource_utilization TEXT,
+    avg_patient_wait_time TIME,
+    admission_rate FLOAT,
+    discharge_rate FLOAT,
+    patient_satisfaction_score FLOAT
 );
 
 -- Create table for public health data with additional fields
@@ -38,5 +47,8 @@ CREATE TABLE public_health_data (
     geographic_region VARCHAR(100),
     health_trend TEXT,
     public_health_intervention TEXT,
-    impact_on_operations TEXT
+    impact_on_operations TEXT,
+    vaccination_rate FLOAT,
+    healthcare_access TEXT,
+    economic_impact TEXT
 );
