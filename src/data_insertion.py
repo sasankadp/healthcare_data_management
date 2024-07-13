@@ -23,7 +23,7 @@ def insert_data(connection, patient_data, hospital_data, public_health_data, app
         for record in public_health_data
     ]
     appointments_queries = [
-        f"INSERT INTO appointments (appointment_id, patient_id, doctor_name, appointment_date, status) VALUES ({record['appointment_id']}, {record['patient_id']}, '{record['doctor_name']}', '{record['appointment_date']}', '{record['status']}')"
+        f"INSERT INTO appointments (patient_id, doctor_name, appointment_date, status) VALUES ({record['patient_id']}, '{record['doctor_name']}', '{record['appointment_date']}', '{record['status']}')"
         for record in appointments_data
     ]
 

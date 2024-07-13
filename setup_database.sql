@@ -1,13 +1,17 @@
-
 -- Create the database if it does not exist
 CREATE DATABASE IF NOT EXISTS healthcare_data;
 
 -- Use the database
 USE healthcare_data;
 
--- Create table for patient records with additional fields
+-- Drop tables if they exist, in the correct order to handle foreign key constraints
+DROP TABLE IF EXISTS appointments;
+DROP TABLE IF EXISTS public_health_data;
+DROP TABLE IF EXISTS hospital_data;
 DROP TABLE IF EXISTS patient_records;
-CREATE TABLE patient_records (
+
+-- Create table for patient records with additional fields
+CREATE TABLE IF NOT EXISTS patient_records (
     patient_id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100),
     gender VARCHAR(10),
@@ -24,8 +28,7 @@ CREATE TABLE patient_records (
 );
 
 -- Create table for hospital data with additional fields
-DROP TABLE IF EXISTS hospital_data;
-CREATE TABLE hospital_data (
+CREATE TABLE IF NOT EXISTS hospital_data (
     record_id INT AUTO_INCREMENT PRIMARY KEY,
     department VARCHAR(100),
     bed_availability INT,
@@ -40,8 +43,7 @@ CREATE TABLE hospital_data (
 );
 
 -- Create table for public health data with additional fields
-DROP TABLE IF EXISTS public_health_data;
-CREATE TABLE public_health_data (
+CREATE TABLE IF NOT EXISTS public_health_data (
     record_id INT AUTO_INCREMENT PRIMARY KEY,
     disease VARCHAR(100),
     geographic_region VARCHAR(100),
@@ -53,6 +55,7 @@ CREATE TABLE public_health_data (
     economic_impact TEXT
 );
 
+-- Create table for appointments
 CREATE TABLE IF NOT EXISTS appointments (
     appointment_id INT AUTO_INCREMENT PRIMARY KEY,
     patient_id INT,
