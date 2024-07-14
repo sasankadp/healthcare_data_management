@@ -46,5 +46,29 @@
         "admission_rate": 0.8,
         "discharge_rate": 0.75,
         "patient_satisfaction_score": 4.6
+    },
+    {
+        "department": "Pediatrics",
+        "bed_availability": 12,
+        "doctors_available": 6,
+        "equipment_status": "Good",
+        "staff_schedule": "Dr. I: 9AM-5PM, Dr. J: 10AM-6PM",
+        "resource_utilization": "70%",
+        "avg_patient_wait_time": "00:40:00",
+        "admission_rate": 0.75,
+        "discharge_rate": 0.65,
+        "patient_satisfaction_score": 4.3
+    },
+    {
+        "department": "Neurology",
+        "bed_availability": 8,
+        "doctors_available": 4,
+        "equipment_status": "Excellent",
+        "staff_schedule": "Dr. K: 8AM-4PM, Dr. L: 10AM-6PM",
+        "resource_utilization": "85%",
+        "avg_patient_wait_time": "00:35:00",
+        "admission_rate": 0.8,
+        "discharge_rate": 0.7,
+        "patient_satisfaction_score": 4.4
     }
 ]
