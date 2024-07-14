@@ -54,5 +54,19 @@
         "insurance_info": "GHI Insurance",
         "ethnicity": "Hispanic",
         "allergies": "None"
+    },
+    {
+        "name": "Diana Evans",
+        "gender": "female",
+        "diagnosis_date": "2021-06-05",
+        "medical_history": "Chronic Kidney Disease",
+        "visit_records": "2021-06-05: Checkup, 2021-12-15: Follow-up",
+        "treatment_plan": "Dialysis, Kidney transplant",
+        "outcome": "Stable",
+        "date_of_birth": "1975-01-01",
+        "contact_info": "diana.evans@example.com",
+        "insurance_info": "MNO Insurance",
+        "ethnicity": "African American",
+        "allergies": "Penicillin"
     }
 ]

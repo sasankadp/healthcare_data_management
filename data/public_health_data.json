@@ -38,5 +38,35 @@
         "vaccination_rate": 0.0,
         "healthcare_access": "Moderate",
         "economic_impact": "Moderate"
+    },
+    {
+        "disease": "Measles",
+        "geographic_region": "Region E",
+        "health_trend": "Outbreak of measles",
+        "public_health_intervention": "Mass vaccination",
+        "impact_on_operations": "High",
+        "vaccination_rate": 0.95,
+        "healthcare_access": "High",
+        "economic_impact": "Moderate"
+    },
+    {
+        "disease": "Malaria",
+        "geographic_region": "Region F",
+        "health_trend": "Seasonal increase in malaria cases",
+        "public_health_intervention": "Insecticide-treated nets, Antimalarial drugs",
+        "impact_on_operations": "Medium",
+        "vaccination_rate": 0.0,
+        "healthcare_access": "Low",
+        "economic_impact": "High"
+    },
+    {
+        "disease": "Obesity",
+        "geographic_region": "Region G",
+        "health_trend": "Rising obesity rates",
+        "public_health_intervention": "Public health campaigns, School programs",
+        "impact_on_operations": "Low",
+        "vaccination_rate": 0.0,
+        "healthcare_access": "Moderate",
+        "economic_impact": "High"
     }
 ]
